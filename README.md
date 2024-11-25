@@ -26,6 +26,7 @@ bun run ./test/index.test.ts
 
 1. cookie access for research purpose only
 2. no rate limiting, implement that yourself
+3. api v2 is untested
 
 ### Methods
 
