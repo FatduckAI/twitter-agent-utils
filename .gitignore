@@ -1,0 +1,4 @@
+.env
+test/cookies.json
+test/assets/*
+node_modules

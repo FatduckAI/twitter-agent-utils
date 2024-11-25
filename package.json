@@ -1,0 +1,21 @@
+{
+  "name": "twitter-scraper",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun test/index.test.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "headers-polyfill": "^4.0.3",
+    "tough-cookie": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "twitter-api-v2": "^1.18.2"
+  }
+}
