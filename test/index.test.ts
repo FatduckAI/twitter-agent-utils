@@ -19,7 +19,7 @@ async function testCookieAuth() {
   const client = await TwitterClient.createWithCookies(cookiesArray);
 
   // Test sending a tweet
-  /* console.log("Testing sendTweet()...");
+  console.log("Testing sendTweet()...");
   const tweet = await client.sendTweet(`Hello! ${new Date().toISOString()} `);
   console.log("Tweeted:", tweet);
   sleep(2000);
@@ -98,9 +98,9 @@ async function testCookieAuth() {
   console.log("Testing getProfile()...");
   const profile = await client.getProfile("0xglu");
   console.log("User profile:", profile);
-  */
+
   console.log("Testing longform sendTweet()...");
-  const tweet = await client.sendTweet(`Hello! ${new Date().toISOString()} 
+  const tweetLong = await client.sendTweet(`Hello! ${new Date().toISOString()} 
   test really long message
   test really long message
   test really long message
@@ -113,7 +113,7 @@ async function testCookieAuth() {
   test really long message
   test really long message
   `);
-  console.log("Tweeted:", tweet);
+  console.log("Tweeted:", tweetLong);
   sleep(2000);
 }
 
